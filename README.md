@@ -128,7 +128,7 @@ This is primarily a portfolio project, but feedback and suggestions are welcome!
 
 ## Contact Info
 
-  Ebad 
+  Ebad Shahid 
 - LinkedIn: www.linkedin.com/in/ebad-shahid-rehman
 - Email: ebad_shahid@hotmail.com
 
