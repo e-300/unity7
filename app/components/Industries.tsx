@@ -165,7 +165,7 @@ export default function Industries() {
   ];
 
   return (
-    <section className="bg-slate-50 py-20">
+    <section id="industries" className="bg-slate-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

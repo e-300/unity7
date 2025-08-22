@@ -69,7 +69,7 @@ export default function Process() {
   ];
 
   return (
-    <section className="bg-white py-20">
+    <section id="process" className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">

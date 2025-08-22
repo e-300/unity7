@@ -1,6 +1,3 @@
-// 
-
-
 // Hero.tsx
 "use client";
 
@@ -19,7 +16,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white px-6 py-20">
+    <section id="home" className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white px-6 py-50">
       <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left - Text */}
         <div className="text-center lg:text-left">
