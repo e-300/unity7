@@ -63,7 +63,7 @@ export function AgentCarousel() {
       tagline: "Your Stock Level Genius",
       benefits: ["25% inventory cost savings", "30% stock availability improvement", "20% less obsolete inventory"],
       icon: "📦",
-      roi: "Reduce inventory costs by 25%",
+      roi: "Reduce inventory costs by to 25%",
     },
     {
       name: "Echo",
@@ -84,11 +84,11 @@ export function AgentCarousel() {
   };
 
   return (
-    <section className="bg-slate-900 text-white py-16">
+    <section id="services" className="bg-slate-900 text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-8">Meet the Agents</h2>
         
-        {/* Agent Carousel */}
+        {/* Agent Carosel */}
         <div className="overflow-x-auto overflow-y-visible pt-4 pb-4 mb-8">
           <div className="flex gap-6 snap-x snap-mandatory px-2">
             {agents.map((agent, idx) => (
@@ -107,7 +107,7 @@ export function AgentCarousel() {
                 <p className="text-amber-100 text-sm italic mb-3">"{agent.tagline}"</p>
                 <p className="text-green-400 font-semibold text-sm">{agent.roi}</p>
                 
-                {/* Dropdown indicator */}
+                {/* Dropdown Arroww*/}
                 <div className="absolute top-2 right-2">
                   <motion.div
                     animate={{ rotate: selectedAgent?.name === agent.name ? 180 : 0 }}
@@ -122,7 +122,7 @@ export function AgentCarousel() {
           </div>
         </div>
 
-        {/* Agent Details - Now at page level, not constrained by carousel */}
+        {/* Agent Details*/}
         <AnimatePresence>
           {selectedAgent && (
             <motion.div
